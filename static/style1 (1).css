@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 280px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 20px !important;
+    border-color: ivory;
+}
+
+input[type="username"],
+input[type="password"]{
+    color: black;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+input[type="username"]:focus,
+input[type="password"]:focus{
+    outline: none;
+    border: none;
+    background: ivory;
+    color: black;
+    margin: 0;
+}
+
+.card-title{
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.btn{
+    background: white;
+    color: black;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.wrapper{
+    min-height: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.wrapper .item{
+    width: max-content;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+}
